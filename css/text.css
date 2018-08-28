@@ -1,3 +1,65 @@
-h1 {
-  margin: 0;
+/* Fonteinbettung */
+@font-face {
+  font-family: 'Baton';
+  src: url('../assets/fonts/BatonTurboWeb-Regular.eot'); /* IE9 Compat Modes */
+  src: url('../assets/fonts/BatonTurboWeb-Regular.woff') format('woff'); /* Pretty Modern Browsers */
 }
+
+html {
+  font-family: 'Baton', sans-serif;
+  font-feature-settings: "onum";
+}
+
+
+/* General styles */
+h1 {
+  color: white;
+  font-size: 70px;
+}
+
+h3 {
+  font-size: 16px;
+  color: white;
+  letter-spacing: 0.3px;
+}
+
+p {
+  font-size: 14px;
+  color: white;
+}
+
+/* classes */
+.textbox {
+  height: 130px;
+  letter-spacing: 0.3px;
+
+}
+
+.country {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.origin {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 10px;
+  opacity: 0;
+}
+
+.box {
+  width: 95px;
+}
+
+.left { text-align: right; }
+.right { text-align: left; }
+
+
+/* colours */
+.middle-east { color: #FF0077; }
+.southeast-asia { color: #00FFC8; }
+.europe { color: #00FF88; }
+.stateless { color: #D8D8D8; }
+.africa { color: #FFBD00; }
+.america { color: #00C3FF; }
