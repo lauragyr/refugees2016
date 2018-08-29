@@ -3,3 +3,9 @@
   cursor: pointer;
   overflow: visible;
 }
+
+/* let all clicks on svg children go to the svg! */
+svg > * {
+  pointer-events: none;
+}
+
