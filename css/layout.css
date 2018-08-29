@@ -4,14 +4,38 @@
 }
 
 body {
-  *background-color: black;
+  background-color: black;
 }
 
 .intro {
   height: 100vh;
+  width: 100vw;
   background-color: black;
   opacity: 0.7;
-  }
+  padding: 100px;
+  position: absolute;
+}
+
+.legend {
+  margin: 0 auto;
+  height: 100vh;
+  width: 100vw;
+  max-width: 1000px;
+}
+
+.mobile {
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.desktop {
+  display: none;
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
 
 .grid {
   width: 240px;
@@ -19,21 +43,29 @@ body {
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
+  margin-top: 300px;
 }
 
 .grid-element {
-  background-color: black;
   width: 200px;
   height: 330px;
-  margin: 20px;
+  margin: 50px;
+}
+
+.grid-element.showdata > .country {
+  display: none;
+}
+
+
+.grid-element.showdata > .origin {
+  display: flex;
 }
 
 .footer {
-  background-color: black;
-  opacity: 0.6;
   display: flex;
   height: 100px;
   justify-content: space-between;
+  padding: 100px;
 }
 
 
@@ -57,9 +89,15 @@ body {
   .grid {
     width: 960px;
   }
+  .desktop {
+    display: block;
+  }
+  .mobile {
+    display: none;
+  }
 }
 
-/* 4 rows */
+/* 5 rows */
 @media only screen and (min-width: 1200px) {
   .grid {
     width: 1200px;

@@ -15,6 +15,7 @@ html {
 h1 {
   color: white;
   font-size: 70px;
+  text-transform: uppercase;
 }
 
 h3 {
@@ -29,23 +30,27 @@ p {
 }
 
 /* classes */
-.textbox {
-  height: 130px;
-  letter-spacing: 0.3px;
-
+.hint {
+  font-size: 14px;
+  background-color: #252424;
+  color: white;
+  width: 190px;
+  height: 60px;
+  padding: 10px 0px 0px 10px;
+  border-radius: 10px;
 }
 
 .country {
+  display: block;
   text-align: center;
   padding-top: 10px;
 }
 
 .origin {
-  display: flex;
+  display: none;
   flex-direction: row;
   justify-content: space-between;
   padding-top: 10px;
-  opacity: 0;
 }
 
 .box {
@@ -63,3 +68,8 @@ p {
 .stateless { color: #D8D8D8; }
 .africa { color: #FFBD00; }
 .america { color: #00C3FF; }
+
+.explanation {
+  color: #8D8D8D;
+  padding-top: 5px;
+}
