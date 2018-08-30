@@ -1,4 +1,4 @@
-/* Fonteinbettung */
+/* font embedding */
 @font-face {
   font-family: 'Baton';
   src: url('../assets/fonts/BatonTurboWeb-Regular.eot'); /* IE9 Compat Modes */
@@ -11,7 +11,7 @@ html {
 }
 
 
-/* General styles */
+/* general styles */
 h1 {
   color: white;
   font-size: 70px;
@@ -44,6 +44,7 @@ p {
   display: block;
   text-align: center;
   padding-top: 10px;
+  user-select: none;
 }
 
 .origin {
@@ -61,17 +62,24 @@ p {
 .right { text-align: left; }
 
 
+/* footer */
 .footer > div > p {
   color: #8D8D8D;
+  font-size: 12px;
 }
 
-.footer > div > h3 {
-  color: #8D8D8D;
+
+/* letter spacing */
+.tab {
+  display: inline-block;
 }
 
-span {
-  text-decoration: underline;
-  
+.tab.single {
+  width: 12px;
+}
+
+.tab.double {
+  width: 18px;
 }
 
 /* colours */

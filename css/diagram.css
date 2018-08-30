@@ -5,6 +5,6 @@
 }
 
 /* let all clicks on svg children go to the svg! */
-diagram > * {
+.diagram > * {
   pointer-events: none;
 }
