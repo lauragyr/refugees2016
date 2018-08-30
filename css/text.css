@@ -61,6 +61,19 @@ p {
 .right { text-align: left; }
 
 
+.footer > div > p {
+  color: #8D8D8D;
+}
+
+.footer > div > h3 {
+  color: #8D8D8D;
+}
+
+span {
+  text-decoration: underline;
+  
+}
+
 /* colours */
 .middle-east { color: #FF0077; }
 .southeast-asia { color: #00FFC8; }
