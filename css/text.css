@@ -14,7 +14,7 @@ html {
 /* general styles */
 h1 {
   color: white;
-  font-size: 70px;
+  font-size: 50px;
   text-transform: uppercase;
 }
 
@@ -27,6 +27,19 @@ h3 {
 p {
   font-size: 14px;
   color: white;
+}
+
+.intro > p {
+  max-width: 24rem;
+}
+
+a {
+  text-decoration: none;
+  color: #9D9D9C;
+}
+
+a:hover {
+  color: #00FF88;
 }
 
 /* classes */
@@ -52,8 +65,13 @@ p {
   flex-direction: row;
   justify-content: space-between;
   padding-top: 10px;
+  max-width: 200px;
+  margin: 0 auto;
 }
 
+.country .grey {
+  padding-top: 9px;
+}
 .box {
   width: 95px;
 }
@@ -62,10 +80,11 @@ p {
 .right { text-align: left; }
 
 
-/* footer */
-.footer > div > p {
-  color: #8D8D8D;
+
+.comment {
   font-size: 12px;
+  color: #9D9D9C;
+  padding-top: 5px;
 }
 
 
@@ -82,15 +101,25 @@ p {
   width: 18px;
 }
 
+.gap {
+  color: #222;
+}
+
+.gap.s {
+  font-size: 14px;
+}
+
+.gap.xs {
+  font-size: 7px;
+}
+
 /* colours */
 .middle-east { color: #FF0077; }
 .southeast-asia { color: #00FFC8; }
 .europe { color: #00FF88; }
-.stateless { color: #D8D8D8; }
+.stateless { color: #DADADA; }
 .africa { color: #FFBD00; }
 .america { color: #00C3FF; }
 
-.explanation {
-  color: #8D8D8D;
-  padding-top: 5px;
-}
+.grey { color: #9D9D9C !important; }
+.white { color: white; }
