@@ -5,6 +5,57 @@
 }
 
 /* let all clicks on svg children go to the svg! */
-.diagram > * {
+/* svg > * {
   pointer-events: none;
+} */
+
+.centre-circle {
+  transform-origin: 50% 50%;
+  animation: pulsate 4s ease infinite;
+}
+
+.legend-svg {
+  cursor: pointer;
+}
+
+
+@-webkit-keyframes pulsate {
+  0%   { transform: scale(1); }
+  10%  { transform: scale(1.2); }
+  20%   { transform: scale(1); }
+  30%  { transform: scale(1.2); }
+  40%   { transform: scale(1); }
+  50%  { transform: scale(1.2); }
+  60%  { transform: scale(1); }
+  100% { transform: scale(1); }
+}
+@-moz-keyframes pulsate {
+  0%   { transform: scale(1); }
+  10%  { transform: scale(1.2); }
+  20%   { transform: scale(1); }
+  30%  { transform: scale(1.2); }
+  40%   { transform: scale(1); }
+  50%  { transform: scale(1.2); }
+  60%  { transform: scale(1); }
+  100% { transform: scale(1); }
+}
+@-o-keyframes pulsate {
+  0%   { transform: scale(1); }
+  10%  { transform: scale(1.2); }
+  20%   { transform: scale(1); }
+  30%  { transform: scale(1.2); }
+  40%   { transform: scale(1); }
+  50%  { transform: scale(1.2); }
+  60%  { transform: scale(1); }
+  100% { transform: scale(1); }
+}
+@keyframes pulsate {
+  0%   { transform: scale(1); }
+  10%  { transform: scale(1.2); }
+  20%   { transform: scale(1); }
+  30%  { transform: scale(1.2); }
+  40%   { transform: scale(1); }
+  50%  { transform: scale(1.2); }
+  60%  { transform: scale(1); }
+  100% { transform: scale(1); }
 }
