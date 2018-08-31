@@ -43,16 +43,6 @@ a:hover {
 }
 
 /* classes */
-.hint {
-  font-size: 14px;
-  background-color: #252424;
-  color: white;
-  width: 190px;
-  height: 60px;
-  padding: 10px 0px 0px 10px;
-  border-radius: 10px;
-}
-
 .country {
   display: block;
   text-align: center;
@@ -65,21 +55,23 @@ a:hover {
   flex-direction: row;
   justify-content: space-between;
   padding-top: 10px;
-  max-width: 200px;
+  width: 200px;
   margin: 0 auto;
 }
 
-.country .grey {
-  padding-top: 9px;
+.origin-container {
+  display: none;
+  flex-direction: column;
 }
-.box {
-  width: 95px;
+.legend-text > div {
+  height: 164px;
 }
+
+.country .grey { padding-top: 9px; }
+.box { width: 95px; }
 
 .left { text-align: right; }
 .right { text-align: left; }
-
-
 
 .comment {
   font-size: 12px;
@@ -103,6 +95,7 @@ a:hover {
 
 .gap {
   color: #222;
+  fill: #222;
 }
 
 .gap.s {
