@@ -10,7 +10,8 @@ body {
 
 /* intro and legend */
 .intro {
-  padding: 100px 0px 0px 100px;
+  padding: 80px 50px 80px 110px;
+  margin: 0 auto;
 }
 
 .legend {
@@ -67,30 +68,35 @@ body {
   display: flex;
 }
 
+.showdata .origin-container {
+  display: flex;
+}
+
 /* footer*/
 .footer {
-  height:200px;
   display: flex;
   flex-direction: column;
   display: -webkit-flex;
   -webkit-flex-direction: column;
   justify-content: space-evenly;
-  padding-left: 80px;
+  padding: 2.5rem;
   border-top: 0.5px solid #8D8D8D;
+}
 
-
+.footer > div:first-child {
+  margin: 0 0 1.5rem 0;
 }
 
 @media only screen and (min-width: 800px) {
   .footer {
-    height: 120px;
-    display: flex;
     flex-direction: row;
     display: -webkit-flex;
     -webkit-flex-direction: row;
     align-items: center;
-    padding: 0 20px 0 0;
+  }
 
+  .footer > div:first-child {
+    margin: 0 0 0 0;
   }
 }
 
@@ -106,21 +112,21 @@ body {
 
 /* 3 columns */
 @media only screen and (min-width: 950px) {
-  .grid {
+  .grid, .intro {
     width: 900px;
   }
 }
 
 /* 4 columns */
 @media only screen and (min-width: 1250px) {
-  .grid {
+  .grid, .intro {
     width: 1200px;
   }
 }
 
 /* 5 columns */
 @media only screen and (min-width: 1550px) {
-  .grid {
+  .grid, .intro {
     width: 1500px;
   }
 }
