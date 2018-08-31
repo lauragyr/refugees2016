@@ -5,12 +5,17 @@
 }
 
 /* let all clicks on svg children go to the svg! */
-/* svg > * {
+svg > * {
   pointer-events: none;
-} */
+}
 
-.centre-circle {
+.centre-circle.desktop {
   transform-origin: 50% 50%;
+  animation: pulsate 4s ease infinite;
+}
+
+.centre-circle.mobile {
+  transform-origin: 188.38px 251.97px;
   animation: pulsate 4s ease infinite;
 }
 
