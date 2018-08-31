@@ -5,6 +5,12 @@
   src: url('../assets/fonts/BatonTurboWeb-Regular.woff') format('woff'); /* Pretty Modern Browsers */
 }
 
+@font-face {
+  font-family: 'Baton Bold';
+  src: url('../assets/fonts/BatonTurboWeb-Bold.eot'); /* IE9 Compat Modes */
+  src: url('../assets/fonts/BatonTurboWeb-Bold.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
 html {
   font-family: 'Baton', sans-serif;
   font-feature-settings: "onum";
@@ -15,7 +21,18 @@ html {
 h1 {
   color: white;
   font-size: 50px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
+  font-family: 'Baton Bold' !important;
+  padding-bottom: 20px;
+  line-height: 1;
+  width: 400px;
+}
+
+@media only screen and (min-width: 760px) {
+  h1 {
+    font-size: 65px;
+    line-height: 1;
+  }
 }
 
 h3 {
@@ -39,7 +56,7 @@ a {
 }
 
 a:hover {
-  color: #00FF88;
+  color: #00FFC8;
 }
 
 /* classes */
@@ -109,7 +126,7 @@ a:hover {
 /* colours */
 .middle-east { color: #FF0077; }
 .southeast-asia { color: #00FFC8; }
-.europe { color: #00FF88; }
+.europe { color: #33FF69; }
 .stateless { color: #DADADA; }
 .africa { color: #FFBD00; }
 .america { color: #00C3FF; }
