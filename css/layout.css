@@ -10,8 +10,14 @@ body {
 
 /* intro and legend */
 .intro {
-  padding: 80px 50px 80px 110px;
   margin: 0 auto;
+  padding: 75px 29px 10px 29px;
+}
+
+@media only screen and (min-width: 1023px) {
+  .intro {
+    padding: 100px 29px 10px 29px;
+  }
 }
 
 .legend {
@@ -24,14 +30,14 @@ body {
 .mobile {
   display: block;
   margin: 0 auto;
-  margin-top: 40px;
-  margin-bottom: 20px;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 .desktop {
   display: none;
   margin: 0 auto;
-  margin-top: 70px;
+  margin-top: 75px;
   margin-bottom: 30px;
 }
 
@@ -41,6 +47,16 @@ body {
   }
   .mobile {
     display: none;
+  }
+/* make intro in 2 columns */
+  .intro {
+    display: flex;
+    justify-content: space-evenly;
+    -webkit-flex-direction: row;
+  }
+
+  .intro > p {
+    padding-top: 20px;
   }
 }
 
@@ -108,6 +124,9 @@ body {
   .grid {
     width: 600px;
   }
+  .intro {
+    margin:
+  }
 }
 
 /* 3 columns */
@@ -119,14 +138,18 @@ body {
 
 /* 4 columns */
 @media only screen and (min-width: 1250px) {
-  .grid, .intro {
+  .grid {
     width: 1200px;
+  }
+
+  .intro {
+    margin
   }
 }
 
 /* 5 columns */
 @media only screen and (min-width: 1550px) {
-  .grid, .intro {
+  .grid {
     width: 1500px;
   }
 }
