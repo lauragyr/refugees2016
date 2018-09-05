@@ -20,13 +20,18 @@
 
 html {
   font-family: 'Baton', sans-serif;
-  font-feature-settings: "onum";
-  /* alternate g character */
-  font-feature-settings: "ss03";
-  -webkit-font-feature-settings: "ss03";
-  -o-font-feature-settings: "ss03";
-  -moz-font-feature-settings: "ss03";
-  -ms-font-feature-settings: "ss03";
+   /* nice numbers */
+   font-feature-settings: "onum";
+   -webkit-font-feature-settings: "onum";
+   -o-font-feature-settings: "onum";
+   -moz-font-feature-settings: "onum";
+   -ms-font-feature-settings: "onum";
+   /* alternate g character */
+   font-feature-settings: "ss03";
+   -webkit-font-feature-settings: "ss03";
+   -o-font-feature-settings: "ss03";
+   -moz-font-feature-settings: "ss03";
+   -ms-font-feature-settings: "ss03";
 }
 
 
