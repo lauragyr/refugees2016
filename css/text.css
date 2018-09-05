@@ -21,6 +21,12 @@
 html {
   font-family: 'Baton', sans-serif;
   font-feature-settings: "onum";
+  /* alternate g character */
+  font-feature-settings: "ss03";
+  -webkit-font-feature-settings: "ss03";
+  -o-font-feature-settings: "ss03";
+  -moz-font-feature-settings: "ss03";
+  -ms-font-feature-settings: "ss03";
 }
 
 
