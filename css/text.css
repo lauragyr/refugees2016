@@ -80,11 +80,15 @@ a:hover {
 
 /* classes */
 .country {
-  display: block;
+  display: flex;
+  flex-direction: column;
   text-align: center;
   padding-top: 10px;
   user-select: none;
+  width: 200px;
+  margin: 0 auto;
 }
+
 
 .origin {
   display: none;
@@ -99,7 +103,8 @@ a:hover {
   display: none;
   flex-direction: column;
 }
-.legend-text > div {
+
+.legend-text {
   height: 164px;
 }
 
