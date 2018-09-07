@@ -76,7 +76,7 @@ body {
 }
 
 /* interaction */
-.showdata .country {
+.showdata .country > p {
   display: none;
 }
 
@@ -87,6 +87,7 @@ body {
 .showdata .origin-container {
   display: flex;
 }
+
 
 /* footer*/
 .footer {
