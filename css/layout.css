@@ -12,6 +12,16 @@ body {
 .intro {
   margin: 0 auto;
   padding: 75px 32px 10px 32px;
+
+  /* make intro in 2 columns */
+  display: flex;
+  justify-content: space-evenly;
+  -webkit-flex-direction: row;
+}
+
+  .intro > p {
+    padding-top: 15px;
+  }
 }
 
 @media only screen and (min-width: 1023px) {
@@ -48,17 +58,7 @@ body {
   .mobile {
     display: none;
   }
-/* make intro in 2 columns */
-  .intro {
-    display: flex;
-    justify-content: space-evenly;
-    -webkit-flex-direction: row;
-  }
 
-  .intro > p {
-    padding-top: 15px;
-  }
-}
 
 /* grid */
 .grid {
