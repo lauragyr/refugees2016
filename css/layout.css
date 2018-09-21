@@ -12,16 +12,6 @@ body {
 .intro {
   margin: 0 auto;
   padding: 75px 32px 10px 32px;
-
-  /* make intro in 2 columns */
-  display: flex;
-  justify-content: space-evenly;
-  -webkit-flex-direction: row;
-}
-
-  .intro > p {
-    padding-top: 15px;
-  }
 }
 
 @media only screen and (min-width: 1023px) {
@@ -58,7 +48,17 @@ body {
   .mobile {
     display: none;
   }
+/* make intro in 2 columns */
+  .intro {
+    display: flex;
+    justify-content: space-evenly;
+    -webkit-flex-direction: row;
+  }
 
+  .intro > p {
+    padding-top: 15px;
+  }
+}
 
 /* grid */
 .grid {
@@ -113,20 +113,29 @@ body {
   }
 
   .footer > div:first-child {
-    margin: 0;
+    margin: 0 0 0 0;
   }
 }
 
+/* silly rotation exception */
+#germany-exception {
+  transition: transform 0.2s ease;
+  transform-origin: 100px 100px;
+  transform: rotate(0);
+}
+
+@media only screen and (min-width: 650px) and (max-width: 949px){
+  #germany-exception {
+    transform: rotate(13deg);
+  }
+}
 
 /* media queries */
 
-/* 3 columns */
+/* 2 columns */
 @media only screen and (min-width: 650px) {
   .grid {
     width: 600px;
-  }
-  .intro {
-    margin:
   }
 }
 
