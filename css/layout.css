@@ -117,18 +117,6 @@ body {
   }
 }
 
-/* silly rotation exception */
-#germany-exception {
-  transition: transform 0.2s ease;
-  transform-origin: 100px 100px;
-  transform: rotate(0);
-}
-
-@media only screen and (min-width: 650px) and (max-width: 949px){
-  #germany-exception {
-    transform: rotate(13deg);
-  }
-}
 
 /* media queries */
 
