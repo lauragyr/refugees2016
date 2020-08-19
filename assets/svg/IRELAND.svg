@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <title>IRELAND</title>
+  <g id="Innenstern">
+    <polyline points="103.49 87.55 100.43 101.4 106.73 88.76" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.5"/>
+    <polyline points="90.84 90.85 100.43 101.4 93.89 113.99" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.5"/>
+    <line x1="100.43" y1="101.4" x2="97.12" y2="115.15" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.5"/>
+  </g>
+  <g id="Kreis">
+    <circle cx="100.43" cy="101.4" r="2.98" fill="#fff"/>
+  </g>
+  <g id="Star">
+    <line x1="105.03" y1="80.61" x2="103.49" y2="87.55" fill="none" stroke="#f07" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+    <line x1="106.73" y1="88.76" x2="106.73" y2="88.76" fill="none" stroke="#f07" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+    <line x1="90.84" y1="90.85" x2="90.84" y2="90.85" fill="none" stroke="#00e788" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+    <line x1="97.12" y1="115.15" x2="97.12" y2="115.15" fill="none" stroke="#ffbd00" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+    <line x1="93.89" y1="113.99" x2="93.89" y2="113.99" fill="none" stroke="#ffbd00" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+  </g>
+  <g id="Punkte">
+    <g>
+      <circle cx="93.65" cy="88.89" r="0.43" fill="#fff"/>
+      <circle cx="96.88" cy="87.65" r="0.43" fill="#fff"/>
+      <circle cx="100.32" cy="87.22" r="0.43" fill="#fff"/>
+      <circle cx="103.49" cy="87.55" r="0.43" fill="#fff"/>
+      <circle cx="106.73" cy="88.76" r="0.43" fill="#fff"/>
+      <circle cx="109.6" cy="90.67" r="0.43" fill="#fff"/>
+      <circle cx="111.94" cy="93.25" r="0.43" fill="#fff"/>
+      <circle cx="113.55" cy="96.32" r="0.43" fill="#fff"/>
+      <circle cx="114.4" cy="99.62" r="0.43" fill="#fff"/>
+      <circle cx="114.4" cy="102.89" r="0.43" fill="#fff"/>
+      <circle cx="113.64" cy="106.28" r="0.43" fill="#fff"/>
+      <circle cx="112.01" cy="109.32" r="0.43" fill="#fff"/>
+      <circle cx="109.77" cy="111.92" r="0.43" fill="#fff"/>
+      <circle cx="106.96" cy="113.93" r="0.43" fill="#fff"/>
+      <circle cx="100.32" cy="115.57" r="0.43" fill="#fff"/>
+      <circle cx="97.12" cy="115.15" r="0.43" fill="#fff"/>
+      <circle cx="93.89" cy="113.99" r="0.43" fill="#fff"/>
+      <circle cx="91.02" cy="112.07" r="0.43" fill="#fff"/>
+      <circle cx="88.73" cy="109.55" r="0.43" fill="#fff"/>
+      <circle cx="87.1" cy="106.49" r="0.43" fill="#fff"/>
+      <circle cx="86.27" cy="103.12" r="0.43" fill="#fff"/>
+      <circle cx="86.27" cy="99.91" r="0.43" fill="#fff"/>
+      <circle cx="87" cy="96.59" r="0.43" fill="#fff"/>
+      <circle cx="88.57" cy="93.49" r="0.43" fill="#fff"/>
+      <circle cx="90.84" cy="90.85" r="0.43" fill="#fff"/>
+      <circle cx="103.73" cy="115.15" r="0.43" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <title>UNITED KINGDOM</title>
+  <g id="Innenstern">
+    <line x1="100.09" y1="100.31" x2="106.51" y2="87.67" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.5"/>
+    <line x1="100.09" y1="100.31" x2="111.7" y2="92.16" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.5"/>
+    <line x1="100.09" y1="100.31" x2="109.36" y2="89.58" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.5"/>
+    <line x1="100.09" y1="100.31" x2="103.25" y2="86.46" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.5"/>
+    <line x1="100" y1="100.22" x2="109.43" y2="110.74" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.5"/>
+  </g>
+  <g id="Kreis">
+    <circle cx="100" cy="100.22" r="3.26" fill="#fff"/>
+  </g>
+  <g id="Star">
+    <line x1="103.16" y1="86.37" x2="104.82" y2="79.51" fill="none" stroke="#f07" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+    <line x1="106.42" y1="87.58" x2="109.7" y2="81.3" fill="none" stroke="#f07" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+    <line x1="109.27" y1="89.49" x2="113.96" y2="84.18" fill="none" stroke="#f07" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+    <line x1="111.61" y1="92.07" x2="111.61" y2="92.07" fill="none" stroke="#f07" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+    <line x1="109.43" y1="110.74" x2="109.43" y2="110.74" fill="none" stroke="#00f1c8" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+  </g>
+  <g id="Punkte">
+    <g>
+      <circle cx="93.32" cy="87.71" r="0.43" fill="#fff"/>
+      <circle cx="96.54" cy="86.47" r="0.43" fill="#fff"/>
+      <circle cx="99.99" cy="86.04" r="0.43" fill="#fff"/>
+      <circle cx="103.16" cy="86.37" r="0.43" fill="#fff"/>
+      <circle cx="106.39" cy="87.58" r="0.43" fill="#fff"/>
+      <circle cx="109.27" cy="89.49" r="0.43" fill="#fff"/>
+      <circle cx="111.61" cy="92.07" r="0.43" fill="#fff"/>
+      <circle cx="113.22" cy="95.15" r="0.43" fill="#fff"/>
+      <circle cx="114.07" cy="98.44" r="0.43" fill="#fff"/>
+      <circle cx="114.07" cy="101.71" r="0.43" fill="#fff"/>
+      <circle cx="113.31" cy="105.1" r="0.43" fill="#fff"/>
+      <circle cx="111.68" cy="108.14" r="0.43" fill="#fff"/>
+      <circle cx="109.43" cy="110.74" r="0.43" fill="#fff"/>
+      <circle cx="106.63" cy="112.75" r="0.43" fill="#fff"/>
+      <circle cx="99.99" cy="114.39" r="0.43" fill="#fff"/>
+      <circle cx="96.79" cy="113.97" r="0.43" fill="#fff"/>
+      <circle cx="93.56" cy="112.81" r="0.43" fill="#fff"/>
+      <circle cx="90.69" cy="110.9" r="0.43" fill="#fff"/>
+      <circle cx="88.4" cy="108.37" r="0.43" fill="#fff"/>
+      <circle cx="86.77" cy="105.31" r="0.43" fill="#fff"/>
+      <circle cx="85.93" cy="101.94" r="0.43" fill="#fff"/>
+      <circle cx="85.93" cy="98.74" r="0.43" fill="#fff"/>
+      <circle cx="86.67" cy="95.41" r="0.43" fill="#fff"/>
+      <circle cx="88.23" cy="92.31" r="0.43" fill="#fff"/>
+      <circle cx="90.51" cy="89.67" r="0.43" fill="#fff"/>
+      <circle cx="103.4" cy="113.97" r="0.43" fill="#fff"/>
+    </g>
+  </g>
+</svg>

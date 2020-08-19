@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="375" height="518.57" viewBox="0 0 375 518.57">
+  <title>LEGEND Mobile</title>
+  <g id="Scale_EW" data-name="Scale EW">
+    <text transform="translate(98.56 259.14)" font-size="14" fill="#575756" font-family="BatonTurbo-Book, Baton Turbo" letter-spacing="0.04em">5</text>
+    <path d="M188.19,164.82A87.09,87.09,0,0,0,101.47,245H103a85.54,85.54,0,1,1,.55,18.54H102a87,87,0,1,0,86.17-98.72Z" fill="#575756"/>
+  </g>
+  <g id="Colorscale">
+    <circle cx="188.46" cy="104.82" r="1.8" fill="#d8d8d8"/>
+    <circle cx="222.34" cy="108.84" r="1.8" fill="#f07"/>
+    <circle cx="287.04" cy="142.13" r="1.8" fill="#f07"/>
+    <circle cx="311.15" cy="170.15" r="1.8" fill="#f07"/>
+    <circle cx="327.45" cy="202.35" r="1.8" fill="#f07"/>
+    <circle cx="334.71" cy="237.79" r="1.8" fill="#00ffc8"/>
+    <circle cx="334.71" cy="271.13" r="1.8" fill="#00ffc8"/>
+    <circle cx="325.29" cy="305.7" r="1.8" fill="#00ffc8"/>
+    <circle cx="308.92" cy="337.09" r="1.8" fill="#00ffc8"/>
+    <circle cx="284.83" cy="362.96" r="1.8" fill="#00ffc8"/>
+    <circle cx="256.19" cy="383.04" r="1.8" fill="#ffbd00"/>
+    <circle cx="222.88" cy="395.09" r="1.8" fill="#ffbd00"/>
+    <circle cx="188.46" cy="399.1" r="1.8" fill="#ffbd00"/>
+    <circle cx="156.46" cy="395.53" r="1.8" fill="#ffbd00"/>
+    <circle cx="123.23" cy="383.69" r="1.8" fill="#ffbd00"/>
+    <circle cx="93.78" cy="364.57" r="1.8" fill="#00c3ff"/>
+    <circle cx="70.01" cy="338.87" r="1.8" fill="#00c3ff"/>
+    <circle cx="52.4" cy="308.09" r="1.8" fill="#00c3ff"/>
+    <circle cx="42.67" cy="273.78" r="1.8" fill="#00c3ff"/>
+    <circle cx="41.76" cy="240.34" r="1.8" fill="#00c3ff"/>
+    <circle cx="48.76" cy="205.03" r="1.8" fill="#0f8"/>
+    <circle cx="64.47" cy="172.19" r="1.8" fill="#0f8"/>
+    <circle cx="88.08" cy="144.34" r="1.8" fill="#0f8"/>
+    <circle cx="117.53" cy="122.62" r="1.8" fill="#0f8"/>
+    <circle cx="151.88" cy="109.47" r="1.8" fill="#0f8"/>
+    <circle cx="256.77" cy="121.76" r="1.8" fill="#f07"/>
+  </g>
+  <g id="Legende">
+    <polyline points="186.87 249.34 268.33 330.8 268.53 437.16" fill="none" stroke="#575756" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.5"/>
+    <polyline points="115.07 203.8 48.76 139.46 48.58 77.43" fill="none" stroke="#575756" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.5"/>
+    <polyline points="167.8 266.32 105.28 328.84 105.45 437.16" fill="none" stroke="#575756" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.5"/>
+  </g>
+  <g id="Kreis">
+    <line x1="188.38" y1="252.07" x2="194.01" y2="227.38" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.89"/>
+    <line x1="213.38" y1="254.62" x2="188.38" y2="252.07" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.89"/>
+    <line x1="194.43" y1="276.4" x2="188.38" y2="252.07" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.89"/>
+    <line x1="167.5" y1="237.93" x2="188.38" y2="252.07" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.89"/>
+    <line x1="163.42" y1="255.03" x2="188.38" y2="252.07" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.89"/>
+    <circle cx="188.38" cy="251.97" r="14.35" fill="#fff"/>
+    <line x1="210.9" y1="153.81" x2="194.01" y2="227.38" fill="none" stroke="#f07" stroke-linecap="round" stroke-miterlimit="10" stroke-width="5"/>
+    <line x1="125.94" y1="259.62" x2="163.42" y2="255.03" fill="none" stroke="#00c3ff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="5"/>
+    <line x1="114.64" y1="203.8" x2="167.5" y2="237.93" fill="none" stroke="#00e788" stroke-linecap="round" stroke-miterlimit="10" stroke-width="5"/>
+    <line x1="213.38" y1="254.62" x2="250.96" y2="258.8" fill="none" stroke="#00ffc8" stroke-linecap="round" stroke-miterlimit="10" stroke-width="5"/>
+    <line x1="212.32" y1="349.79" x2="194.43" y2="276.4" fill="none" stroke="#ffbd00" stroke-linecap="round" stroke-miterlimit="10" stroke-width="5"/>
+    <g>
+      <circle cx="176.53" cy="229.76" r="0.76" fill="#fff"/>
+      <circle cx="182.26" cy="227.55" r="0.76" fill="#fff"/>
+      <circle cx="188.38" cy="226.8" r="0.76" fill="#fff"/>
+      <circle cx="194.01" cy="227.38" r="0.76" fill="#fff"/>
+      <circle cx="199.75" cy="229.53" r="0.76" fill="#fff"/>
+      <circle cx="204.86" cy="232.92" r="0.76" fill="#fff"/>
+      <circle cx="209.02" cy="237.51" r="0.76" fill="#fff"/>
+      <circle cx="211.87" cy="242.96" r="0.76" fill="#fff"/>
+      <circle cx="213.38" cy="248.82" r="0.76" fill="#fff"/>
+      <circle cx="213.38" cy="254.62" r="0.76" fill="#fff"/>
+      <circle cx="212.04" cy="260.64" r="0.76" fill="#fff"/>
+      <circle cx="209.14" cy="266.04" r="0.76" fill="#fff"/>
+      <circle cx="205.15" cy="270.65" r="0.76" fill="#fff"/>
+      <circle cx="200.17" cy="274.22" r="0.76" fill="#fff"/>
+      <circle cx="188.38" cy="277.14" r="0.76" fill="#fff"/>
+      <circle cx="182.69" cy="276.4" r="0.76" fill="#fff"/>
+      <circle cx="176.96" cy="274.34" r="0.76" fill="#fff"/>
+      <circle cx="171.86" cy="270.94" r="0.76" fill="#fff"/>
+      <circle cx="167.8" cy="266.45" r="0.76" fill="#fff"/>
+      <circle cx="164.89" cy="261.02" r="0.76" fill="#fff"/>
+      <circle cx="163.42" cy="255.03" r="0.76" fill="#fff"/>
+      <circle cx="163.42" cy="249.34" r="0.76" fill="#fff"/>
+      <circle cx="164.72" cy="243.43" r="0.76" fill="#fff"/>
+      <circle cx="167.5" cy="237.93" r="0.76" fill="#fff"/>
+      <circle cx="171.54" cy="233.24" r="0.76" fill="#fff"/>
+      <circle cx="194.43" cy="276.4" r="0.76" fill="#fff"/>
+    </g>
+    <text transform="translate(137.19 87.48)" font-size="14" fill="#d8d8d8" font-family="BatonTurbo-Regular, Baton Turbo"><tspan letter-spacing="0.01em">S</tspan><tspan x="8.41" y="0">ta</tspan><tspan x="20.82" y="0" letter-spacing="-0.01em">t</tspan><tspan x="25.76" y="0">eless </tspan><tspan x="61.15" y="0" letter-spacing="0.01em">pe</tspan><tspan x="77" y="0">ople</tspan></text>
+    <text transform="translate(293.6 373.01)" font-size="14" fill="#00ffc8" font-family="BatonTurbo-Regular, Baton Turbo"><tspan letter-spacing="0.01em">S</tspan><tspan x="8.48" y="0">outh-</tspan><tspan x="0" y="17">eas</tspan><tspan x="21.46" y="17" letter-spacing="-0.01em">t</tspan><tspan x="26.4" y="17">ern </tspan><tspan x="0" y="34" letter-spacing="0.01em">A</tspan><tspan x="9.16" y="34">sia</tspan></text>
+    <text transform="translate(269.6 124.53)" font-size="14" fill="#f07" font-family="BatonTurbo-Regular, Baton Turbo">Middle East</text>
+    <text transform="translate(168.26 421.05)" font-size="14" fill="#ffbd00" font-family="BatonTurbo-Regular, Baton Turbo">Afri<tspan x="22.2" y="0" letter-spacing="0.01em">c</tspan><tspan x="29.48" y="0">a</tspan></text>
+    <text transform="translate(39.22 372.55)" font-size="14" fill="#00c3ff" font-family="BatonTurbo-Regular, Baton Turbo"><tspan letter-spacing="0.01em">S</tspan><tspan x="8.48" y="0">outh- </tspan><tspan x="19" y="17">and</tspan><tspan x="-5.21" y="34">Middl</tspan><tspan x="29.74" y="34" letter-spacing="0.01em">e</tspan><tspan x="37.45" y="34">-</tspan><tspan x="-7.64" y="51">ameri</tspan><tspan x="28" y="51" letter-spacing="0.01em">c</tspan><tspan x="35.28" y="51">a</tspan></text>
+    <text transform="translate(60.71 124.75)" font-size="14" fill="#0f8" font-family="BatonTurbo-Regular, Baton Turbo">Eu<tspan x="16.41" y="0" letter-spacing="-0.02em">r</tspan><tspan x="21.15" y="0">o</tspan><tspan x="28.97" y="0" letter-spacing="0.01em">p</tspan><tspan x="37.24" y="0">e</tspan></text>
+    <text transform="translate(226.19 462.09)" font-size="14" fill="#fff" font-family="BatonTurbo-Regular, Baton Turbo">Ratio of <tspan x="51.79" y="0" letter-spacing="-0.02em">r</tspan><tspan x="56.53" y="0" letter-spacing="0.01em">e</tspan><tspan x="64.11" y="0">fug</tspan><tspan x="83.71" y="0" letter-spacing="0em">e</tspan><tspan x="91.28" y="0">es </tspan><tspan x="0" y="17">in p</tspan><tspan x="23.39" y="17" letter-spacing="-0.02em">r</tspan><tspan x="28.14" y="17">o</tspan><tspan x="35.95" y="17" letter-spacing="0.01em">p</tspan><tspan x="44.23" y="17">ortion </tspan><tspan x="0" y="34" letter-spacing="-0.01em">t</tspan><tspan x="4.94" y="34">o </tspan><tspan x="16.25" y="34" letter-spacing="0em">p</tspan><tspan x="24.53" y="34">opulation</tspan></text>
+    <text transform="translate(42.79 461.52)" font-size="14" fill="#fff" font-family="BatonTurbo-Regular, Baton Turbo">Bi<tspan x="12.42" y="0" letter-spacing="0.01em">g</tspan><tspan x="19.7" y="0">gest ratio of </tspan><tspan x="-6.94" y="17" letter-spacing="-0.02em">r</tspan><tspan x="-2.2" y="17" letter-spacing="0.01em">e</tspan><tspan x="5.38" y="17">fug</tspan><tspan x="24.98" y="17" letter-spacing="0em">e</tspan><tspan x="32.55" y="17">es (1</tspan><tspan x="60.23" y="17" letter-spacing="-0.06em">.</tspan><tspan x="62.93" y="17">1</tspan><tspan x="68.43" y="17" letter-spacing="-0.02em">4</tspan><tspan x="76.08" y="17" letter-spacing="0em">%)</tspan><tspan x="35.22" y="34">in eu</tspan><tspan x="65.91" y="34" letter-spacing="-0.02em">r</tspan><tspan x="70.66" y="34">o</tspan><tspan x="78.47" y="34" letter-spacing="0.01em">p</tspan><tspan x="86.74" y="34">e</tspan></text>
+    <text transform="translate(26.78 27.78)" font-size="14" fill="#fff" font-family="BatonTurbo-Regular, Baton Turbo">Out of 10000 <tspan x="0" y="17">citi</tspan><tspan x="19.52" y="17" letter-spacing="-0.02em">z</tspan><tspan x="25.55" y="17">en the</tspan><tspan x="65.3" y="17" letter-spacing="-0.02em">r</tspan><tspan x="70.04" y="17">e </tspan><tspan x="0" y="34">a</tspan><tspan x="7.32" y="34" letter-spacing="-0.02em">r</tspan><tspan x="12.07" y="34">e 5 </tspan><tspan x="34.51" y="34" letter-spacing="-0.02em">r</tspan><tspan x="39.26" y="34" letter-spacing="0.01em">e</tspan><tspan x="46.83" y="34">fug</tspan><tspan x="66.43" y="34" letter-spacing="0em">e</tspan><tspan x="74" y="34">es</tspan></text>
+  </g>
+</svg>
