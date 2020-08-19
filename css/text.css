@@ -6,32 +6,43 @@
 }
 
 @font-face {
-  font-family: 'Baton Bold';
-  src: url('../assets/fonts/BatonTurboWeb-Bold.eot'); /* IE9 Compat Modes */
-  src: url('../assets/fonts/BatonTurboWeb-Bold.woff') format('woff'); /* Pretty Modern Browsers */
+  font-family: 'Baton Medium';
+  src: url('../assets/fonts/BatonTurboWeb-Medium.eot'); /* IE9 Compat Modes */
+  src: url('../assets/fonts/BatonTurboWeb-Medium.woff') format('woff'); /* Pretty Modern Browsers */
 }
+
 
 html {
   font-family: 'Baton', sans-serif;
-  font-feature-settings: "onum";
+   /* nice numbers */
+   font-feature-settings: "onum";
+   -webkit-font-feature-settings: "onum";
+   -o-font-feature-settings: "onum";
+   -moz-font-feature-settings: "onum";
+   -ms-font-feature-settings: "onum";
+   /* alternate g character */
+   font-feature-settings: "ss03";
+   -webkit-font-feature-settings: "ss03";
+   -o-font-feature-settings: "ss03";
+   -moz-font-feature-settings: "ss03";
+   -ms-font-feature-settings: "ss03";
 }
-
 
 /* general styles */
 h1 {
   color: white;
-  font-size: 50px;
-  /*text-transform: uppercase;*/
-  font-family: 'Baton Bold' !important;
+  font-size: 55px;
+  font-family: 'Baton Medium' !important;
   padding-bottom: 20px;
   line-height: 1;
-  width: 400px;
+  width: 250px;
 }
 
 @media only screen and (min-width: 760px) {
-  h1 {
-    font-size: 65px;
+h1 {
+    font-size: 67px;
     line-height: 1;
+    width: 350px;
   }
 }
 
@@ -47,7 +58,7 @@ p {
 }
 
 .intro > p {
-  max-width: 24rem;
+  max-width: 20rem;
 }
 
 a {
@@ -61,10 +72,12 @@ a:hover {
 
 /* classes */
 .country {
-  display: block;
+  display: flex;
+  flex-direction: column;
   text-align: center;
   padding-top: 10px;
   user-select: none;
+  margin: 0 auto;
 }
 
 .origin {
@@ -80,7 +93,8 @@ a:hover {
   display: none;
   flex-direction: column;
 }
-.legend-text > div {
+
+.legend-text {
   height: 164px;
 }
 
@@ -126,7 +140,7 @@ a:hover {
 /* colours */
 .middle-east { color: #FF0077; }
 .southeast-asia { color: #00FFC8; }
-.europe { color: #33FF69; }
+.europe { color: #33ff69; }
 .stateless { color: #DADADA; }
 .africa { color: #FFBD00; }
 .america { color: #00C3FF; }

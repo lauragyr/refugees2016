@@ -4,9 +4,12 @@
   overflow: visible;
 }
 
-/* let all clicks on svg children go to the svg! */
 svg > * {
+  /* let all clicks on svg children go to the svg! */
   pointer-events: none;
+  /* make sure non-chrome browsers do it right */
+  -webkit-transform-origin: 100px 100px;
+  -moz-transform-origin: 100px 100px;
 }
 
 .centre-circle.desktop {
@@ -15,12 +18,50 @@ svg > * {
 }
 
 .centre-circle.mobile {
-  transform-origin: 188.38px 251.97px;
+  transform-origin: 188px 252px;
   animation: pulsate 4s ease infinite;
 }
 
 .legend-svg {
   cursor: pointer;
+}
+
+/*
+
+  pass individual rotation modifiers to diagrams
+  note: this _does not work_ inline other than for chrome
+
+*/
+
+#austria,
+#hungary,
+#greece,
+#bulgaria {
+  transform: rotate(12deg);
+}
+
+#switzerland {
+  transform: rotate(-10deg);
+}
+
+#malta {
+  transform: rotate(60deg);
+}
+
+#iceland {
+  transform: rotate(10deg);
+}
+
+#germany {
+  transition: transform 0.2s ease;
+  transform-origin: 100px 100px;
+  transform: rotate(0);
+}
+
+@media only screen and (min-width: 650px) and (max-width: 949px){
+  #germany {
+    transform: rotate(13deg);
+  }
 }
 
 

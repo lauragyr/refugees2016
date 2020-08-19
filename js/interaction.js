@@ -19,7 +19,6 @@ for(var i=0; i < legends.length; i++) {
 // add a class if it does not have it
 // take it away if it does
 function toggleData(e) {
-  console.log(e.target)
   var parent = e.target.parentElement
   if(parent.classList.contains("showdata")) {
     parent.classList.remove("showdata")

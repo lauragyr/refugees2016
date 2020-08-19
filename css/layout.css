@@ -11,7 +11,7 @@ body {
 /* intro and legend */
 .intro {
   margin: 0 auto;
-  padding: 75px 29px 10px 29px;
+  padding: 75px 32px 10px 32px;
 }
 
 @media only screen and (min-width: 1023px) {
@@ -56,7 +56,7 @@ body {
   }
 
   .intro > p {
-    padding-top: 20px;
+    padding-top: 15px;
   }
 }
 
@@ -76,7 +76,7 @@ body {
 }
 
 /* interaction */
-.showdata .country {
+.showdata .country > p {
   display: none;
 }
 
@@ -87,6 +87,7 @@ body {
 .showdata .origin-container {
   display: flex;
 }
+
 
 /* footer*/
 .footer {
@@ -119,13 +120,10 @@ body {
 
 /* media queries */
 
-/* 3 columns */
+/* 2 columns */
 @media only screen and (min-width: 650px) {
   .grid {
     width: 600px;
-  }
-  .intro {
-    margin:
   }
 }
 
@@ -140,10 +138,6 @@ body {
 @media only screen and (min-width: 1250px) {
   .grid {
     width: 1200px;
-  }
-
-  .intro {
-    margin
   }
 }
 
